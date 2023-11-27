@@ -13,5 +13,9 @@
   w-36 h-10 transition-shadow;
 }
 
+.link{
+  @apply hover:underline cursor-pointer;
+}
+
 
 }
