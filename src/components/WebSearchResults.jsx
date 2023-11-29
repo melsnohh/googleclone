@@ -1,8 +1,10 @@
 import Link from 'next/link'
 import React from 'react'
 import HTMLReactParser from 'html-react-parser'
+import PaginationButton from './PaginationButton'
 
 export default function WebSearchResults({results}) {
+    
   return (
     <div className='w-full mx-auto px-3 pb-40 sm:pb-24 sm:pl-[5%] md:pl-[14%] lg:pl-52'>
         
@@ -11,7 +13,6 @@ export default function WebSearchResults({results}) {
                  results (${results.searchInformation?.formattedSearchTime} seconds)`}
             </div>
 
-            <div>
                 {results.items?.map((result)=> (
                     <div className='mb-8 max-w-xl' key={result.link}> 
                         <div className='group flex flex-col'>
@@ -34,6 +35,9 @@ export default function WebSearchResults({results}) {
 
                     </div>
                 ))}
+
+            <div>
+                <PaginationButton />
             </div>
     
     </div>
