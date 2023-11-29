@@ -4,7 +4,7 @@ import HTMLReactParser from 'html-react-parser'
 
 export default function WebSearchResults({results}) {
   return (
-    <div className='w-full max-auto px-3 pb-24 sm:pl-[%5] md:pl-[14%] lg:pl-[52%]'>
+    <div className='w-full mx-auto px-3 pb-40 sm:pb-24 sm:pl-[5%] md:pl-[14%] lg:pl-52'>
         
             <div className='text-sm text-gray-600 mb-5 mt-3'>
                 {`About ${results.searchInformation?.formattedTotalResults}
