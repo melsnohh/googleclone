@@ -9,7 +9,7 @@ export default function Home() {
     <HomeHeader/>
 
     <div className='flex items-center flex-col mt-24'>
-      <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/640px-Google_2015_logo.svg.png"
+      <Image alt='googleimage' src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/640px-Google_2015_logo.svg.png"
        width={300} 
        height={100} 
        />
