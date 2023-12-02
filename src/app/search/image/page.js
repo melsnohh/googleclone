@@ -19,6 +19,10 @@ export default async function ImageSearchPage({searchParams}) {
 
     const results = data.items 
 
+    console.log(results)
+
+
+
 
     if(!results){
         return <div className='flex flex-col justify-center text-center pt-10'>

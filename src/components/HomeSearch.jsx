@@ -38,12 +38,12 @@ export default function HomeSearch() {
 
   return (
     <>
+
     <form onSubmit={handSubmit} className="flex w-full mt-5 mx-auto max-w-[90%] border border-gray-200 px-5 py-3
     rounded-full hover:shadow-md focus-within:shadow-md transition-shadow sm:max-w-xl lg:mx-w-2xl">
     <AiOutlineSearch className="text-xl text-gray-500 mr-3 " />
     <input value={inputValue} onChange={(e) => setInputValue(e.target.value)} type="text" className="flex-grow focus:outline-none" />
     <BsFillMicFill className="text-lg" />
-
     </form>
 
     <div className="flex flex-col justify-center sm:flex-row space-y-2 sm:space-y-0 
@@ -59,7 +59,7 @@ export default function HomeSearch() {
                  className="h-6 text-center"
                   />
                   ) : (
-                "I am feeling lukcy" )  }
+                "I am feeling lucky" )  }
         </button>
 
     </div>
